@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HideMethod
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            MyMemember Hideobj = new MyMemember();
+            Hideobj.member();
+            Console.ReadKey();
+        }
+    }
+}
